@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.scss';
+import {Sum} from './components/Sum';
 
 export const App = () => (
   <>
@@ -7,7 +8,7 @@ export const App = () => (
     <Sum a ={-5} b={5} />
     <Sum a ={10} />
     <Sum b={5} />
-    <Sum a />
+    <Sum  />
     {/* Replace paragraphs with Sum componets */}
     {/* And remove commented lines :) */}
   </>
